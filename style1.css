@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #1f1f1f;
+}
+
+/* Navbar =================================== */
+.navbar button {
+    border: none !important;
+}
+
+.navbar img {
+    width: 3rem;
+    height: 3rem;
+    border: 0.15rem solid black;
+    box-shadow: 0.15rem 0.15rem black;
+    margin-right: 8px;
+}
+
+/* milestone ================================ */
+#milestones .container {
+    height: 10rem;
+    max-width: 600px;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    padding: 5px;
+    background-color: rgb(152, 255, 83);
+}
+
+#milestones .col-8 {
+    height: 10rem;
+}
+
+.progress {
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: none !important;
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: orangered !important;
+}
+
+
+#milestones .col-4 img {
+    height: 6rem !important;
+}
+
+/* Digidaga count ========================== */
+#digidaga h1 {
+    font-size: 6rem;
+    color: #2d2d2c;
+    font-weight: bold;
+}
+
+#digidaga .col-6 img {
+    height: 12rem;
+    width: 12rem;
+}
+
+#digidaga .container {
+    height: 18rem;
+    background: gold;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    padding: 5px;
+}
+
+#digidaga .col-6 {
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.digidaga-btn {
+    margin-left: 1rem;
+    background: rgb(200, 255, 0);
+    border: 3px solid black;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px black;
+    transition: all 0.1s;
+    text-transform: uppercase;
+}
+
+.digidaga-btn:active {
+    box-shadow: 2px 2px black;
+    transform: translate(2px, 2px);
+}
+
+/* Timer ================================================ */
+.timer {
+    height: 12rem;
+    width: 48%;
+    background: pink;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    padding: 5px;
+}
+
+.timer img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.timer-btn {
+    margin-left: 1rem;
+    background: gold;
+    border: 3px solid black;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px black;
+    transition: all 0.1s;
+    text-transform: uppercase;
+}
+
+.timer-btn:active {
+    box-shadow: 2px 2px black;
+    transform: translate(2px, 2px);
+}
+
+/* Hanuman Chalisha ============================================================== */
+.hanuman_chalisha {
+    height: 12rem;
+    width: 48%;
+    background: skyblue;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    padding: 5px;
+}
+
+.hanuman_chalisha img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.chalisha-btn {
+    margin-left: 1rem;
+    background: gold;
+    border: 3px solid black;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px black;
+    transition: all 0.1s;
+    text-transform: uppercase;
+}
+
+.chalisha-btn:active {
+    box-shadow: 2px 2px black;
+    transform: translate(2px, 2px);
+}
+.cls-btn {
+    margin-left: 1rem;
+    background: gold;
+    border: 3px solid black;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px black;
+    transition: all 0.1s;
+    text-transform: uppercase;
+}
+
+.cls-btn:active {
+    box-shadow: 2px 2px black;
+    transform: translate(2px, 2px);
+}
+
+/* Setting ============================================== */
+.modal-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.modal-body img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.reset-btn {
+    margin-left: 1rem;
+    background: orangered;
+    border: 3px solid black;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px black;
+    transition: all 0.1s;
+}
+
+.reset-btn:active {
+    box-shadow: 2px 2px black;
+    transform: translate(2px, 2px);
+}
+
+/* Breath Modal =================================== */
+.breath-btn {
+    margin-left: 1rem;
+    background: orangered;
+    border: 3px solid black;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px black;
+    transition: all 0.1s;
+}
+
+.breath-btn:active {
+    box-shadow: 2px 2px black;
+    transform: translate(2px, 2px);
+}
+
+.timer-text {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#BreathModal img {
+    height: 8rem;
+    width: 8rem;
+}
